@@ -1,0 +1,161 @@
+---
+// FAQ Section - Frequently Asked Questions
+---
+
+<section class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+        Elimine Suas Últimas Dúvidas
+      </h2>
+      <p class="text-xl text-gray-600">
+        Respostas diretas para as perguntas mais frequentes
+      </p>
+    </div>
+
+    <!-- FAQ Items -->
+    <div class="space-y-6">
+      <!-- FAQ 1 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Preciso de um PC muito potente?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Não. Qualquer PC Windows com 8GB de RAM roda perfeitamente. A IA é otimizada para máquinas comuns. Não precisa de placa de vídeo especial ou processador top de linha.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Realmente não tem custos mensais?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Correto! Você paga uma única vez e tem acesso vitalício. Sem assinaturas, sem mensalidades, sem pegadinhas. O sistema roda 100% local na sua máquina, então não há custos de servidor ou nuvem.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Eu preciso aparecer nos vídeos?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Absolutamente não! Os vídeos são 100% automatizados com vozes IA ultra realistas e visuais gerados automaticamente. Você nunca precisa aparecer, gravar sua voz ou mostrar seu rosto. Perfeito para quem quer privacidade total.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">É difícil de usar?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Muito fácil! A interface foi criada para iniciantes. Em menos de 1 hora você configura tudo e em poucos cliques já está criando vídeos. Temos documentação completa, vídeo-aulas e suporte para tirar qualquer dúvida.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Isso é permitido pelo YouTube?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Sim, 100% permitido! Nossos vídeos são conteúdo original criado por IA, não violam direitos autorais e seguem todas as diretrizes do YouTube. Milhares de canais já operam com esse método sem problemas.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Quanto tempo demora para ver resultados?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Nossos clientes reportam primeiros ganhos entre 15-30 dias. Alguns conseguem monetização em 7-14 dias dependendo do nicho. O importante é consistência - o sistema pode postar automaticamente todos os dias para acelerar o crescimento.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Funciona em outros idiomas?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Sim! Temos 10 idiomas completos: Português, Inglês, Espanhol, Francês, Alemão, Italiano, Japonês, Coreano e mais. Cada idioma tem vozes ultra realistas e você pode criar conteúdo para mercados internacionais facilmente.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+        <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ(this)">
+          <h3 class="text-lg font-bold text-gray-900">Posso usar em múltiplos canais?</h3>
+          <svg class="w-6 h-6 text-gray-500 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div class="mt-4 text-gray-600 hidden">
+          <p>Claro! Não há limite de canais. Você pode criar quantos workflows quiser, cada um configurado para um nicho diferente. Muitos clientes operam 5-10 canais simultaneamente, multiplicando os resultados.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Support -->
+    <div class="mt-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 text-center">
+      <div class="text-4xl mb-4">💬</div>
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">Ainda tem dúvidas?</h3>
+      <p class="text-gray-600 mb-6">Nossa equipe de suporte está pronta para ajudar você a ter sucesso</p>
+      
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="bg-white rounded-lg p-4 border border-blue-200">
+          <div class="text-blue-600 text-lg font-semibold">📧 Email</div>
+          <div class="text-gray-600 text-sm">suporte@monetizefy.ai</div>
+        </div>
+        <div class="bg-white rounded-lg p-4 border border-blue-200">
+          <div class="text-blue-600 text-lg font-semibold">💬 Telegram</div>
+          <div class="text-gray-600 text-sm">Grupo VIP (Planos Pro+)</div>
+        </div>
+        <div class="bg-white rounded-lg p-4 border border-blue-200">
+          <div class="text-blue-600 text-lg font-semibold">📱 WhatsApp</div>
+          <div class="text-gray-600 text-sm">Plano Ultimate</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFAQ(button) {
+    const content = button.nextElementSibling;
+    const icon = button.querySelector('svg');
+    
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      content.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    }
+  }
+</script>

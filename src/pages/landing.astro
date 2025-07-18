@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/sections/Hero.astro';
+import Features from '../components/sections/Features.astro';
+import Demo from '../components/sections/Demo.astro';
+import Languages from '../components/sections/Languages.astro';
+import Process from '../components/sections/Process.astro';
+import Revenue from '../components/sections/Revenue.astro';
+import Testimonials from '../components/sections/Testimonials.astro';
+import Benefits from '../components/sections/Benefits.astro';
+import Pricing from '../components/sections/Pricing.astro';
+import FAQ from '../components/sections/FAQ.astro';
+import CTA from '../components/sections/CTA.astro';
+
+const title = "Monetizefy AI - Seu Estúdio de Vídeo IA Pessoal";
+const description = "Tecnologia avançada de IA que transforma suas ideias em vídeos profissionais para YouTube, TikTok e Instagram. Processamento local, sem dependência de serviços externos.";
+---
+
+<Layout title={title} description={description}>
+  <Hero />
+  <Features />
+  <Demo />
+  <Languages />
+  <Process />
+  <Revenue />
+  <Testimonials />
+  <Benefits />
+  <Pricing />
+  <FAQ />
+  <CTA />
+</Layout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
